@@ -67,10 +67,11 @@ def train_model(X, y):
     )
 
     clf = RandomForestClassifier(
-        n_estimators=200,
-        max_depth=None,
+        n_estimators=100, # 4/3: thu 100 thay vi 200
+        max_depth=15, # 4/3: thu 15 thay vi none
         random_state=42,
         n_jobs=-1,
+        class_weight='balanced' # 4/3: them thu
     )
 
     print("[INFO] Training RandomForest model...")

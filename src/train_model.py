@@ -18,7 +18,7 @@ FEATURES_FILE = PROCESSED_DIR / "features.csv"
 
 MODELS_DIR = ROOT_DIR / "models"
 MODELS_DIR.mkdir(parents=True, exist_ok=True)
-MODEL_PATH = MODELS_DIR / "fall_detector_rf.pkl"
+MODEL_PATH = MODELS_DIR / "fall_detector_rf_test1.pkl"
 
 
 # --------------------

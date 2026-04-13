@@ -13,7 +13,7 @@ import joblib
 # --------------------
 ROOT_DIR = Path(__file__).resolve().parents[1]
 MODELS_DIR = ROOT_DIR / "models"
-MODEL_PATH = MODELS_DIR / "fall_detector_rf.pkl"
+MODEL_PATH = MODELS_DIR / "fall_detector_rf_test1.pkl"
 
 FALL_LABEL = 1
 NO_FALL_LABEL = 0

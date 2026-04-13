@@ -25,7 +25,7 @@ CLASS_MAP = {
 FRAME_SAMPLE_RATE = 5  # use every 5th frame to reduce compute
 
 
-mp_pose = mp.solutions.pose
+mp_pose = mp.solutions.pose(model_complexity=0)
 
 
 # --------------------
